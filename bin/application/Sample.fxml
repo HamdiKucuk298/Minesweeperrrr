@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #000000;" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.SampleController">
+   <left>
+      <AnchorPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+         <children>
+            <ImageView fitHeight="400.0" fitWidth="212.0" layoutX="-5.0">
+               <image>
+                  <Image url="@../images/52980.jpg" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+   </left>
+   <center>
+      <AnchorPane prefHeight="400.0" prefWidth="347.0" BorderPane.alignment="CENTER">
+         <children>
+            <Label layoutX="48.0" layoutY="199.0" prefHeight="38.0" prefWidth="148.0" text="𝓟𝓛𝓐𝓨 --&gt;" textFill="#fa0000">
+               <font>
+                  <Font size="26.0" />
+               </font>
+            </Label>
+            <Label layoutX="48.0" layoutY="278.0" prefHeight="42.0" prefWidth="118.0" text="𝓠𝓤𝓘̇𝓣 --&gt;" textFill="RED">
+               <font>
+                  <Font size="26.0" />
+               </font>
+            </Label>
+            <Button layoutX="249.0" layoutY="200.0" mnemonicParsing="false" onAction="#playGame" prefHeight="36.0" prefWidth="76.0" style="-fx-background-color: RED;" text="YO🍎" />
+            <Button layoutX="250.0" layoutY="279.0" mnemonicParsing="false" onAction="#quitGame" prefHeight="40.0" prefWidth="73.0" style="-fx-background-color: RED;" text="TO☀" />
+            <ImageView fitHeight="130.0" fitWidth="138.0" layoutY="13.0">
+               <image>
+                  <Image url="@../images/asd.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="284.0" layoutY="3.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/1.jpg" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+   </center>
+</BorderPane>
